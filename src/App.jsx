@@ -22,8 +22,7 @@ function Model() {
       defaults: { duration: 1, ease: 'power1.inOut' },
     });
 
-    // ANIMATION SEQUENCE
-    // The timeline length (0 to 3) corresponds to scroll distance (0→1)
+    
 
     // 0% → 33%: Rotate 90° and move left
     tl.current
@@ -70,7 +69,7 @@ export default function LandingPage() {
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={100} castShadow />
         <pointLight position={[-10, -10, -10]} intensity={50} color="#ff0000" />
 
-        {/* Environment adds realistic metal reflections */}
+       //hehe
         <Environment preset="city" />
 
         {/* ScrollControls handles the "virtual" scroll height */}
@@ -114,3 +113,5 @@ export default function LandingPage() {
 }
 
 //THE ABOVE WHOLE CODE IS WRITTEN BY GEMINI SO DO IT ACCORDINGLY
+// git add src/App.jsx
+// git commit -m "feat: add comments page UI for pull request"
