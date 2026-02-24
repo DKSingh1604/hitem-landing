@@ -70,7 +70,7 @@ export default function LandingPage() {
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} intensity={100} castShadow />
         <pointLight position={[-10, -10, -10]} intensity={50} color="#ff0000" />
 
-        {/* Environment adds realistic metal reflections */}
+       //hehe
         <Environment preset="city" />
 
         {/* ScrollControls handles the "virtual" scroll height */}
@@ -114,3 +114,5 @@ export default function LandingPage() {
 }
 
 //THE ABOVE WHOLE CODE IS WRITTEN BY GEMINI SO DO IT ACCORDINGLY
+// git add src/App.jsx
+// git commit -m "feat: add login page UI"
