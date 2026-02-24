@@ -17,6 +17,7 @@ function Model() {
   const tl = useRef();
 
   useLayoutEffect(() => {
+    
     // GSAP Timeline synced to the scroll progress
     tl.current = gsap.timeline({
       defaults: { duration: 1, ease: 'power1.inOut' },
