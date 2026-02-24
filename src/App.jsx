@@ -49,6 +49,7 @@ function Model() {
     }
   });
 
+
   return (
     <primitive
       ref={modelRef}
@@ -111,3 +112,5 @@ export default function LandingPage() {
     </div>
   );
 }
+
+//THE ABOVE WHOLE CODE IS WRITTEN BY GEMINI SO DO IT ACCORDINGLY
