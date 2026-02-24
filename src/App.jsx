@@ -22,8 +22,7 @@ function Model() {
       defaults: { duration: 1, ease: 'power1.inOut' },
     });
 
-    // ANIMATION SEQUENCE
-    // The timeline length (0 to 3) corresponds to scroll distance (0→1)
+    
 
     // 0% → 33%: Rotate 90° and move left
     tl.current
@@ -115,4 +114,4 @@ export default function LandingPage() {
 
 //THE ABOVE WHOLE CODE IS WRITTEN BY GEMINI SO DO IT ACCORDINGLY
 // git add src/App.jsx
-// git commit -m "feat: add login page UI"
+// git commit -m "feat: add comments page UI for pull request"
